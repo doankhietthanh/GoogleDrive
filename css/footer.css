@@ -1,0 +1,121 @@
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f8f9fa;
+
+    padding-bottom: 40px;
+}
+
+.footer__site-links {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 16px;
+    padding: 40px 0 48px;
+}
+
+.footer__site-link {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.footer__site-link-header {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footer__site-link-list li {
+    margin: 10px 0;
+}
+
+.footer__site-link-list li a {
+    font-weight: 500;
+    color: var(--color-gray);
+}
+
+.footer__site-link-list li a:hover {
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.footer__global {
+    width: 80%;
+    padding: 40px 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__global-logo {
+    font-size: 28px;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer__global-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer__global-links li {
+    margin: 10px 20px;
+}
+
+.footer__global-links li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-gray);
+}
+
+.footer__global-links li a:hover {
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.footer__global-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__global-more {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--color-gray);
+}
+
+.icon-help {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer__global-more-help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    color: #333;
+}
+
+.footer__global-more-language {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-gray);
+    padding-right: 100px;
+    border: none;
+}
