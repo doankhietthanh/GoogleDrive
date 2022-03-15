@@ -2,7 +2,7 @@ const boxes = document.querySelectorAll(".drive__item");
 const header = document.querySelector(".header");
 
 window.addEventListener("scroll", () => {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
 
   if (window.scrollY > 5) {
     header.classList.add("show");
