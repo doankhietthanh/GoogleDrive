@@ -1,4 +1,4 @@
-const boxes = document.querySelectorAll(".drive");
+const boxes = document.querySelectorAll(".drive__item");
 const header = document.querySelector(".header");
 
 window.addEventListener("scroll", () => {

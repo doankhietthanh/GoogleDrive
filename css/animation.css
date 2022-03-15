@@ -1,15 +1,15 @@
 html {
     scroll-behavior: smooth;
 }
-.drive {
+.drive__item {
     transform: translateX(400%);
     transition: transform 0.7s ease;
 }
 
-.drive:nth-of-type(even) {
+.drive__item:nth-of-type(even) {
     transform: translateX(-300%);
 }
 
-.drive.show {
+.drive__item.show {
     transform: translateX(0);
 }
