@@ -1,0 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+.drive {
+    transform: translateX(400%);
+    transition: transform 0.7s ease;
+}
+
+.drive:nth-of-type(even) {
+    transform: translateX(-300%);
+}
+
+.drive.show {
+    transform: translateX(0);
+}
