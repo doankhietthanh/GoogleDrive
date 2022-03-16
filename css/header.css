@@ -1,141 +1,140 @@
 .header {
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    width: 100%;
-    min-height: 64px;
-    display: flex;
-    flex-direction: row;
-    background-color: var(--color-white);
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-white);
 }
 
 .header.show {
-    box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow);
 }
 
 .header__logo {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    padding-left: 7px;
+  padding-left: 7px;
 }
 
 .header_link {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    padding: 0 12px;
+  padding: 0 12px;
 }
 
 .header_link img {
-    width: 33px;
-    height: 100%;
+  width: 33px;
+  height: 100%;
 }
 
 .header__logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 64px;
 
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .header__logo--google {
-    color: rgb(117, 117, 117);
-    font-weight: 700;
-    margin: 0 5px;
+  color: rgb(117, 117, 117);
+  font-weight: 700;
+  margin: 0 5px;
 }
 
 .header__logo--product {
-    color: var(--color-gray);
-    font-weight: 400;
+  color: var(--color-gray);
+  font-weight: 400;
 }
 
 .header__link-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
-    min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  min-height: 64px;
 }
 
 .header__link-bar-item {
-    width: 100%;
-    min-height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.25px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
 
-    color: var(--color-gray);
-    margin: 0px 22px;
+  color: var(--color-gray);
+  margin: 0px 22px;
 
-    padding: 1px 12px 0;
+  padding: 1px 12px 0;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header__link-bar-item:hover {
-    border-radius: 4px;
-    background-color: #f8f9fa;
+  border-radius: 4px;
+  background-color: #f8f9fa;
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
-    width: 100%;
-    max-height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  max-height: 64px;
+  flex: 1;
 }
 
 .buttons a {
-    max-width: auto;
-    height: 100%;
-    max-height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  max-width: auto;
+  height: 100%;
+  max-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
 
-    letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
 
-    padding: 2px 24px 0;
+  padding: 2px 24px 0;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-go {
-    color: var(--color-primary);
-    background-color: var(--color-white);
+  color: var(--color-primary);
+  background-color: var(--color-white);
 
-    border: 1px solid var(--color-border-white);
+  border: 1px solid var(--color-border-white);
 
-    margin: 8px 0px 4px 8px;
+  margin: 8px 0px 4px 8px;
 }
 
 .btn-try {
-    color: var(--color-white);
-    background-color: var(--color-primary);
+  color: var(--color-white);
+  background-color: var(--color-primary);
 
-    margin: 8px 8px 4px 8px;
+  margin: 8px 8px 4px 8px;
 }
 
 .btn-go:hover {
-    background-color: rgba(209, 209, 209, 0.1);
-    border: 1px solid var(--color-primary);
+  background-color: rgba(209, 209, 209, 0.1);
+  border: 1px solid var(--color-primary);
 }
 
 .btn-try:hover {
-    background-color: rgb(9, 90, 197);
+  background-color: rgb(9, 90, 197);
 }
