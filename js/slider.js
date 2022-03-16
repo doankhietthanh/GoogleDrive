@@ -1,4 +1,4 @@
-const DELAY = 3000000;
+const DELAY = 3000;
 
 const numOfSlide = document.querySelector(".drive__customers-slider-cover")
   .children.length;
