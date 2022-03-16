@@ -72,25 +72,25 @@ cover.addEventListener("mouseup", (e) => {
 });
 
 document.body.addEventListener("mouseover", (e) => {
-  console.log(e);
-  if (mouseActive) {
-    const deltaX = e.offsetX - offsetX;
-    offsetX = e.offsetX;
-    const width = cover.getBoundingClientRect().width;
-    const translateX =
-      parseInt(
-        getComputedStyle(cover).getPropertyValue("transform").split(",")[4]
-      ) || 0;
-    console.log(e.offsetX);
-    cover.style.transform = `translateX(${translateX + deltaX}px)`;
-    const currentX = translateX + deltaX;
-    if (currentX < -width * (numOfSlide - 1)) {
-      cover.style.transform = `translateX(${-width * (numOfSlide - 1)}px)`;
-    }
-    if (currentX > 0) {
-      cover.style.transform = `translateX(0px)`;
-    }
-  }
+  // console.log(e);
+  // if (mouseActive) {
+  //   const deltaX = e.offsetX - offsetX;
+  //   offsetX = e.offsetX;
+  //   const width = cover.getBoundingClientRect().width;
+  //   const translateX =
+  //     parseInt(
+  //       getComputedStyle(cover).getPropertyValue("transform").split(",")[4]
+  //     ) || 0;
+  //   console.log(e.offsetX);
+  //   cover.style.transform = `translateX(${translateX + deltaX}px)`;
+  //   const currentX = translateX + deltaX;
+  //   if (currentX < -width * (numOfSlide - 1)) {
+  //     cover.style.transform = `translateX(${-width * (numOfSlide - 1)}px)`;
+  //   }
+  //   if (currentX > 0) {
+  //     cover.style.transform = `translateX(0px)`;
+  //   }
+  // }
 });
 
 document.querySelector(".btn-prev-slider").addEventListener("click", () => {
