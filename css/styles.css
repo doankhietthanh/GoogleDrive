@@ -23,3 +23,18 @@ body {
 a {
     text-decoration: none;
 }
+
+ul li {
+    list-style-type: none;
+}
+
+.logo-google {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-gray);
+    cursor: pointer;
+}
+
+.logo-google:hover {
+    color: var(--color-black);
+}

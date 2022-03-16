@@ -311,12 +311,20 @@ main {
   font-size: 36px;
 }
 
+.drive__customers-dot {
+    margin: 20px 0;
+}
+
 .drive__customers-icons {
   width: 70%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.drive__customers-icons img {
+    margin: 0 10px;
 }
 
 /* Statistics*/
@@ -463,4 +471,73 @@ main {
 
 .drive__tools-company li:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Get Started */
+.get_started {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 120px;
+}
+
+.get_started__heading h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+
+    margin-bottom: 60px;
+}
+
+.get_started__container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_started__box {
+    margin: 0 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid rgba(190, 190, 190, 0.863);
+    padding: 0 32px 32px 32px;
+}
+
+.box-header {
+    min-height: 80px;
+    padding: 38px 0 0 0;
+}
+
+.box-body-title {
+    margin: 10px 0;
+
+    font-size: 18px;
+}
+
+.box-body-description {
+    font-size: 16px;
+    height: 200px;
+    color: var(--color-gray);
+}
+
+.box-link a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-primary);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.box-link a:hover {
+    background-color: #c4d9fa6e;
 }
