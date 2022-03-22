@@ -1,0 +1,110 @@
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 40px !important;
+    }
+    .drives {
+        width: 90%;
+    }
+    .header__link-bar {
+        display: none;
+    }
+
+    .drive__hero {
+        flex-direction: column;
+    }
+
+    .drive__hero-container {
+        width: 100%;
+    }
+
+    .drive__hero-image {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .drive__hero-btn {
+        width: 100%;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .drive__item {
+        flex-direction: column;
+    }
+
+    .drive__item-title {
+        font-size: 32px !important;
+    }
+
+    .drive__item:nth-of-type(odd) {
+        flex-direction: column;
+    }
+
+    .drive__item-container {
+        width: 100%;
+    }
+
+    .drive__item-image {
+        width: 100%;
+    }
+
+    .drive__platform-description {
+        padding: 0;
+        width: 100%;
+    }
+
+    .drive__customers-title {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .drive__customers-sliders-heading {
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .drive__customers-sliders-link {
+        padding-bottom: 0;
+    }
+
+    .drive__customers-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .drive__customers-icons img {
+        margin: 0 20px 30px;
+    }
+
+    .drive__statistics {
+        width: 100%;
+    }
+
+    .drive__tools-heading {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .drive__tools-heading h2 {
+        font-size: 40px;
+    }
+
+    .drive__tools-company {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .drive__tools-company li {
+        width: auto;
+    }
+
+    .get_started__container {
+        flex-direction: column;
+    }
+
+    .get_started__box {
+        width: 80%;
+        margin: 10px;
+    }
+}

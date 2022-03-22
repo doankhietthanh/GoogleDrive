@@ -98,6 +98,8 @@ document.querySelector(".btn-prev-slider").addEventListener("click", () => {
   if (currentSlide < 0) {
     currentSlide = numOfSlide - 1;
   }
+  document.querySelector(".btn-next-slider").style =
+    "background-color: rgba(255, 255, 255,0.5)";
   slideTo(currentSlide);
 });
 
@@ -106,5 +108,7 @@ document.querySelector(".btn-next-slider").addEventListener("click", () => {
   if (currentSlide === numOfSlide) {
     currentSlide = 0;
   }
+  document.querySelector(".btn-prev-slider").style =
+    "background-color: rgba(255, 255, 255,0.5)";
   slideTo(currentSlide);
 });
