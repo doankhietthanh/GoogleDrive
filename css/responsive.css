@@ -114,6 +114,24 @@
         width: 80%;
         margin: 10px;
     }
+    .footer__global {
+        width: 90%;
+        flex-direction: column;
+    }
+    .footer__global-logo {
+        width: 100%;
+        padding-left: 20px;
+        justify-content: start;
+    }
+    .footer__global-links {
+        flex-wrap: wrap;
+    }
+    .footer__global-more {
+        padding-top: 30px;
+        padding-left: 20px;
+        width: 100%;
+        justify-content: start;
+    }
 }
 
 @media (max-width: 600px) {
