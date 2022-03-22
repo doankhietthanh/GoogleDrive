@@ -31,7 +31,7 @@ ul li {
 .logo-google {
     font-size: 18px;
     font-weight: 700;
-    color: var(--color-gray);
+    color: #888;
     cursor: pointer;
 }
 

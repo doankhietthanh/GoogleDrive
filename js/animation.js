@@ -1,5 +1,9 @@
 const boxes = document.querySelectorAll(".drive__item");
 const header = document.querySelector(".header");
+const menuBtn = document.querySelector(".header__menu-btn span");
+const menuList = document.querySelector(".header__menu-list");
+
+let isMenu = false;
 
 window.addEventListener("scroll", () => {
   // console.log(window.scrollY);
@@ -20,4 +24,19 @@ window.addEventListener("scroll", () => {
       box.classList.remove("show");
     }
   });
+});
+
+// menuBtn.addEventListener("click", (e) => {
+//   menuList.classList.add("show");
+//   isMenu = true;
+// });
+
+window.addEventListener("click", (e) => {
+  if (e.target !== menuList && isMenu) {
+    menuList.classList.remove("show");
+    isMenu = false;
+  } else if (e.target === menuBtn) {
+    menuList.classList.add("show");
+    isMenu = true;
+  }
 });

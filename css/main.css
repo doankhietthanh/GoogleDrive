@@ -167,6 +167,7 @@ main {
   letter-spacing: -0.5px;
   line-height: 56px;
   font-weight: 400;
+  text-align: center;
 
   margin: 24px 0;
 }
@@ -245,7 +246,7 @@ main {
   padding: 24px 240px;
 }
 
-.drive__customers-sliders-heading h3 {
+.drive__customers-sliders-heading p {
   font-size: 28px;
   font-weight: 400;
   text-align: center;
@@ -348,6 +349,7 @@ main {
   font-weight: 400;
   letter-spacing: -0.5px;
   line-height: 56px;
+  text-align: center;
 }
 
 .drive__statistics-description {
