@@ -544,3 +544,76 @@ main {
 .box-link a:hover {
   background-color: #c4d9fa6e;
 }
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  width: 70vw;
+}
+.resources__heading h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 56px;
+
+  margin-bottom: 60px;
+}
+
+.resources__container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover_scroll {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll {
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart {
+  width: 398px;
+  border: 1px solid #e4e4e4;
+  border-radius: 7px;
+  overflow: hidden;
+
+  user-select: none;
+}
+.cart:not(:last-child) {
+  margin-right: 20px;
+}
+.cart_img img {
+  width: 100%;
+  height: 200px;
+}
+.cart_title {
+  padding: 15px 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.cart_btn {
+  margin: 10px 30px 30px 10px;
+  padding: 10px 20px;
+  color: #1a73e8;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cart_btn:hover {
+  background-color: #f4f8fe;
+  display: inline-block;
+}
