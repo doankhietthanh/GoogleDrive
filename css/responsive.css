@@ -185,4 +185,11 @@
         align-items: end;
         padding-left: 0px;
     }
+    .drive__platform-icons,
+    .drive__platform-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
