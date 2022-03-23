@@ -14,7 +14,6 @@
     .drive__item-description {
         font-size: 14px;
     }
-
     .drive__statistics-description {
         font-size: 12px;
     }
@@ -184,5 +183,6 @@
     .chart-item {
         flex-direction: column;
         align-items: end;
+        padding-left: 0px;
     }
 }

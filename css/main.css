@@ -349,7 +349,6 @@ main {
   font-weight: 400;
   letter-spacing: -0.5px;
   line-height: 56px;
-  text-align: center;
 }
 
 .drive__statistics-description {
@@ -544,7 +543,6 @@ main {
 .box-link a:hover {
   background-color: #c4d9fa6e;
 }
-
 .resources {
   display: flex;
   flex-direction: column;
