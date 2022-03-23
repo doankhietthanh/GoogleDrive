@@ -1,7 +1,24 @@
 @media (max-width: 1024px) {
-    h2 {
-        font-size: 40px !important;
+    .drive__hero-title,
+    .drive__platform-title,
+    .drive__statistics-title,
+    .drive__customers-title,
+    .drive__tools-heading h2,
+    .get_started__heading h2 {
+        font-size: 40px;
     }
+    .drive__item-title {
+        font-size: 32px;
+    }
+
+    .drive__item-description {
+        font-size: 14px;
+    }
+
+    .drive__statistics-description {
+        font-size: 12px;
+    }
+    /*  */
     .header__menu-btn {
         display: block;
     }
@@ -14,10 +31,6 @@
 
     .drive__hero {
         flex-direction: column;
-    }
-
-    .drive__hero-title {
-        font-size: 40px;
     }
 
     .drive__hero-container {
@@ -37,10 +50,6 @@
 
     .drive__item {
         flex-direction: column;
-    }
-
-    .drive__item-title {
-        font-size: 32px !important;
     }
 
     .drive__item:nth-of-type(odd) {
@@ -92,10 +101,6 @@
         width: 100%;
     }
 
-    .drive__tools-heading h2 {
-        font-size: 40px;
-    }
-
     .drive__tools-company {
         width: 100%;
         justify-content: center;
@@ -134,16 +139,35 @@
     }
 }
 
-@media (max-width: 600px) {
-    h2 {
-        font-size: 28px !important;
+@media (max-width: 625px) {
+    .drive__hero-title,
+    .drive__platform-title,
+    .drive__statistics-title,
+    .drive__customers-title,
+    .drive__tools-heading h2,
+    .get_started__heading h2 {
+        font-size: 28px;
     }
-    p {
-        font-size: 18px !important;
+    .drive__item-title {
+        font-size: 24px;
     }
-    .buttons {
+
+    .drive__item-description {
+        font-size: 14px;
+    }
+
+    .drive__statistics-title {
+        text-align: center;
+    }
+
+    .drive__statistics-description {
+        font-size: 12px;
+    }
+    /*  */
+    .header .buttons {
         display: none;
     }
+
     .drive__statistics {
         flex-direction: column;
     }
